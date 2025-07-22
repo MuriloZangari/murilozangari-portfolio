@@ -1,12 +1,13 @@
-import Header from './components/layout/Header'
+import Header from './components/layout/Header';
+import Hero from './components/sections/Hero';
 
 export default function Home() {
   return (
-    <>
-      <Header />
-      <main className="flex flex-col items-center px-6 sm:px-12 lg:px-24">
-        {/* Sections will be added here */}
-      </main>
-    </>
+    <main className="min-h-screen flex justify-center px-4 sm:px-6 md:px-8">
+      <div className="relative w-full max-w-[720px] py-6 border-x border-dashed border-gray-300">
+        <Header />
+        <Hero />
+      </div>
+    </main>
   )
 }
