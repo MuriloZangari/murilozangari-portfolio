@@ -1,10 +1,9 @@
 import ExperienceItem from '../ui/ExperienceItem';
+import ExpandableCard from '../ui/ExpandableCard';
 
 export default function Experience() {
   return (
-    <section className="flex flex-col gap-6 border-b border-dashed border-gray-300 p-4 text-justify">
-      <h2 className="text-xl text-gray-800 font-bold text-left">Experience</h2>
-
+    <ExpandableCard title="Experience">
       <ExperienceItem
         title="Full-stack Software Engineer"
         company="Brick Abode"
@@ -40,6 +39,9 @@ export default function Experience() {
           'Published two peer-reviewed scientific articles. Improved my skill in communication and data storytelling.',
         ]}
       />
-    </section>
+    </ExpandableCard>
   );
 }
+
+
+

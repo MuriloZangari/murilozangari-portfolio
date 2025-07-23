@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <header className="flex justify-between items-center text-sm py-4 px-4 md:px-6 text-gray-600 border-b border-dashed border-gray-300">
+    <header className="flex justify-between items-center text-sm py-4 md:py-6 px-4 md:px-6">
       <a
         href="https://linkedin.com/in/murilozangari"
         target="_blank"
